@@ -1,0 +1,62 @@
+
+        #text{
+            height: 25px;
+            border-radius: 5px;
+            padding: 4px;
+            border: solid thin #aaa;
+            width: 100%;
+        }
+
+        #button{
+            padding: 10px;
+            width: 100px;
+            color: white;
+            background-color: green;
+            border: solid thin;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        #box{
+        background-color:#78909C;
+        margin: auto;
+        width: 300px;
+        padding: 20px;
+        }
+
+
+        h1{
+            
+        background-color:#78909C;
+        border: solid green;
+        font-weight:bold;
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Times New Roman', Times, serif;
+        padding-bottom:50px;
+        color: white;
+   
+        }
+   
+        body{
+      
+        background-image: url(Elem.jpg);
+        background-repeat: no-repeat;
+        background-size: 1400px;
+        background-position: center;
+        background-color: greenyellow;  
+   
+        }
+
+        h4{
+        color: white;
+        text-align:center;
+        padding-top: 100px;
+        }
+
+        form{
+            color:white;
+        }
+
+        a{
+            color:white;
+        }

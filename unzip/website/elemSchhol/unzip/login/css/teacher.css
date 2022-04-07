@@ -1,0 +1,138 @@
+
+body{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow:hidden;
+    
+    }   
+    .sidebar{
+        position: fix;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width:240px;
+        background: #11101d;
+        padding: 6px 14px;
+        margin-top: 13px;
+    }
+    .sidebar .logo_content .logo{
+        color: #fff;
+        display: flex;
+        height: 50px;
+        width: 100%;
+        align-items: center;
+    }
+    .logo_content .logo i{
+        font-size: 28px;
+        margin-right: 5px;
+        
+    }
+    .logo_content .logo .logo_name{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .sidebar #{
+        position: absolute;
+        color: #fff;
+        left: 90%;
+        top: 6px;
+        font-size: 20px;
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        line-height: 50px;
+        transform: translateX(-50px);
+    }
+    
+    .sidebar ul{
+        margin-top: 40px;
+    }
+    .sidebar ul li{
+        position: relative;
+        height: 50px;
+        width: 100%;
+        margin: 0 5px;
+        list-style: none;
+        line-height: 50px;
+    }
+    .sidebar ul li a{
+        color: #fff;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        transition: all 0.4s ease;
+    }
+    .sidebar ul li a:hover{
+        color: #11101d;
+        background: #fff;
+    
+    }
+    .sidebar ul li a i{
+        height: 50px;
+        min-width: 50px;
+        border-radius: 12px;
+        line-height: 50px;
+        text-align: center;
+    
+    }
+    
+    h3{
+        margin-right: 1%; 
+        padding-top:7px;
+        text-align: center;
+        background-color:#ff8000;
+        color: white;
+        
+        
+        }
+    .bttn{
+        float: right;
+        outline: none;
+        display: block;
+        border: 0;
+        font-size: 16px;
+        line-height:1;
+        padding: 16px 30px;
+        border-radius: 30px;
+        background: #ff8000;
+        color:white;
+        cursor: pointer;
+        transition: all 0.3s linear;
+        margin: 1%;
+    }
+    body{
+    background-color: brown;
+    }
+
+    .grades{
+        border: solid black;
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+        position:relative;
+        bottom:300px;
+        right:250px;
+        text-align:center;
+        background: #ff8000;
+    }
+
+    .docx{
+        border: solid black;
+        width: 200px;
+        height: 200px;
+        position:relative;
+        bottom:526px;
+        text-align:center;
+        background: #ff8000;  
+    }
+    .class{
+        border: solid black;
+        width: 200px;
+        height: 200px;
+        position:relative;
+        bottom:732px;
+        left:250px;
+        text-align:center;
+        background: #ff8000;  
+    }
